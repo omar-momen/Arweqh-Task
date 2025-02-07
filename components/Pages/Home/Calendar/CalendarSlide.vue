@@ -1,6 +1,6 @@
 <template>
   <div
-    class="group relative w-full max-w-sm rounded-2xl shadow-lg overflow-hidden h-[550px] cursor-pointer"
+    class="group relative w-full rounded-2xl shadow-lg overflow-hidden h-[550px] cursor-pointer"
   >
     <!-- Image -->
     <div class="relative h-full z-[5]">

@@ -11,7 +11,7 @@
           :dir="locale == 'en' ? 'ltr' : 'rtl'"
         >
           <button
-            class="cool-button px-5 py-[10px] flex items-center gap-1 capitalize mb-2 colored"
+            class="cool-button text-sm font-normal px-5 py-[10px] flex items-center gap-1 capitalize mb-2 colored"
           >
             Enhance your financial career
           </button>

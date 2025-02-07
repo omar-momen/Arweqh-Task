@@ -13,13 +13,13 @@
         <div class="w-full xl:w-[50%] lg:h-full flex-center">
           <div class="h-full relative">
             <NuxtImg
-              sizes="440px"
+              width="440px"
               height="641px"
               class="mt-10 lg:mt-0 h-[349px] lg:h-full"
               src="/images/hero-person.png"
             />
             <div
-              class="absolute top-[18%] -start-[30%] xl:-start-[15%] flex flex-col justify-center items-start bg-darkColor/70 backdrop-blur-md p-5 w-[140px] xl:w-[180px] rounded-xl text-whiteColor"
+              class="absolute top-[18%] -start-[30%] xl:-start-[20%] flex flex-col justify-center items-start bg-darkColor/50 backdrop-blur-md p-5 w-[140px] xl:w-[200px] rounded-xl text-whiteColor"
             >
               <GraduateIcon class="mb-3" />
               <h4 class="text-xs xl:text-lg">
@@ -28,13 +28,13 @@
               </h4>
             </div>
             <div
-              class="absolute bottom-[8%] -start-[30%] xl:-start-[15%] flex flex-col justify-center items-start bg-darkColor/70 backdrop-blur-md px-5 py-6 w-[140px] xl:w-[180px] rounded-xl text-whiteColor"
+              class="absolute bottom-[8%] -start-[30%] xl:-start-[20%] flex flex-col justify-center items-start bg-darkColor/50 backdrop-blur-md px-5 py-6 w-[140px] xl:w-[200px] rounded-xl text-whiteColor"
             >
               <h4 class="text-xs xl: xl:text-lg">
                 Our Happy Students
                 <span class="text-[10px] font-normal">20k+ User </span>
               </h4>
-              <ul class="flex items-center mt-2">
+              <ul class="flex items-center mt-2 -space-x-3">
                 <li>
                   <NuxtImg
                     class="w-[20px] xl:w-[35px] h-[20px] xl:h-[35px]"
@@ -44,7 +44,7 @@
                     alt="star"
                   />
                 </li>
-                <li class="-ms-1">
+                <li>
                   <NuxtImg
                     class="w-[20px] xl:w-[35px] h-[20px] xl:h-[35px]"
                     width="35"
@@ -53,7 +53,7 @@
                     alt="star"
                   />
                 </li>
-                <li class="-ms-1">
+                <li>
                   <NuxtImg
                     class="w-[20px] xl:w-[35px] h-[20px] xl:h-[35px]"
                     width="35"
@@ -62,7 +62,7 @@
                     alt="star"
                   />
                 </li>
-                <li class="-ms-1">
+                <li>
                   <NuxtImg
                     class="w-[20px] xl:w-[35px] h-[20px] xl:h-[35px]"
                     width="35"

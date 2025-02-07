@@ -45,7 +45,7 @@ const swiperOptions = {
     },
     1000: {
       slidesPerView: 3,
-      spaceBetween: 10,
+      spaceBetween: 30,
     },
   },
   modules: [Pagination, Autoplay],

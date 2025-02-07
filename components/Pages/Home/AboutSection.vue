@@ -2,25 +2,25 @@
   <section>
     <UContainer>
       <div
-        class="about-section flex flex-col md:flex-row items-center justify-between gap-6 rounded-2xl"
+        class="about-section flex flex-wrap flex-col md:flex-row items-center justify-between rounded-2xl gap-10"
       >
-        <div class="max-w-lg md:text-left flex flex-col">
+        <div class="flex flex-col w-full lg:w-[50%]">
           <GrayBadge text="Why us" class="w-fit" />
           <h2 class="mb-3 text-3xl md:text-5xl font-bold">Why Business 360?</h2>
-          <p class="mt-2 paragraph">
+          <p class="mt-2 paragraph w-full lg:w-[60%]">
             Join Thousands of Professionals Who Have Advanced Their Careers with
             Our Accredited Finance Courses. We offer more than just courses; we
             provide pathways to a successful career in finance.
           </p>
           <div class="mt-5 flex flex-wrap md:flex-row items-center gap-4">
-            <UButton class="py-3 px-14 mt-2"> Join us + </UButton>
+            <UButton class="py-4 px-14 mt-2"> Join us + </UButton>
             <ul class="flex items-center mt-2 -space-x-3">
               <li
                 class="w-12 h-12 rounded-full border-2 border-white dark:border-darkColor"
               >
                 <NuxtImg
                   class="xl:w-[48px] xl:h-[48px]"
-                  sizes="48"
+                  width="48"
                   height="48"
                   src="/temp/images/avatar1.png"
                   alt="star"
@@ -49,7 +49,7 @@
                 />
               </li>
               <li
-                class="w-12 h-12 rounded-full border-2 border-white bg-[#DCDCDC] text-darkColor font-normal flex-center text-lg"
+                class="w-12 h-12 xl:w-[53px] xl:h-[53px] rounded-full border-2 border-white bg-[#DCDCDC] text-darkColor font-normal flex-center text-lg"
               >
                 2k+
               </li>
@@ -58,9 +58,9 @@
         </div>
 
         <!-- Video -->
-        <div class="relative rounded-xl w-full max-w-md h-[350px]">
+        <div class="relative rounded-xl w-full h-[400px] max-w-[600px]">
           <div
-            class="absolute inset-0 z-10 bg-[#080F1D26]/20 backdrop-blur-sm rounded-xl w-full max-w-md h-[350px]"
+            class="absolute inset-0 z-10 bg-[#080F1D26]/20 backdrop-blur-sm rounded-xl w-full h-full"
             :class="{
               'bg-[#080F1D26]/20': !isPlaying,
               hidden: isPlaying,
@@ -77,7 +77,7 @@
 
           <video
             ref="video"
-            class="w-full h-full object-cover rounded-xl"
+            class="w-full h-full object-cover rounded-xl ]"
             src="https://www.w3schools.com/html/mov_bbb.mp4"
             controls
           ></video>

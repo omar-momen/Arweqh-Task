@@ -8,7 +8,7 @@
       >
         <div class="flex flex-col w-full lg:w-[30%]">
           <Logo width="367" height="57" :logoBig="true" />
-          <h3 class="mt-6 text-base font-normal">
+          <h3 class="mt-6 text-base font-light">
             Opening the Door to Financial Knowledge
           </h3>
         </div>
@@ -76,7 +76,7 @@
 <style scoped lang="postcss">
 li {
   a {
-    @apply text-base font-normal text-whiteColor;
+    @apply text-base font-light text-whiteColor;
   }
 }
 </style>

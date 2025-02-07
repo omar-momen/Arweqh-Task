@@ -1,3 +1,11 @@
+<template>
+  <div class="max-w-2xl mx-auto p-4">
+    <h1 class="text-center text-5xl mb-8">Posts</h1>
+    <PostList :posts="posts" :loading="loading" :hasMore="hasMore" />
+    <div ref="target" class="h-1"></div>
+  </div>
+</template>
+
 <script setup>
 definePageMeta({
   title: "Posts",
@@ -44,12 +52,3 @@ onUnmounted(() => {
   if (observer) observer.disconnect();
 });
 </script>
-
-<template>
-  <div class="max-w-2xl mx-auto p-4">
-    <h1 class="text-center text-5xl mb-8">Posts</h1>
-    <PostList :posts="posts" :loading="loading" :hasMore="hasMore" />
-
-    <div ref="target" class="h-1"></div>
-  </div>
-</template>
