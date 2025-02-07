@@ -18,7 +18,9 @@
           <h1 class="text-3xl xl:text-6xl font-bold max-w-[650px]">
             Advance Your Career with Expert Finance Courses
           </h1>
-          <p class="paragraph max-w-[500px] mt-4">
+          <p
+            class="paragraph !text-whiteColor !font-extralight max-w-[500px] mt-4"
+          >
             Unlock Your Future with Comprehensive Accounting & Finance Courses:
             Flexible Online and Offline Learning with Business 360
           </p>
@@ -50,11 +52,11 @@ import "swiper/css/pagination";
 const swiperOptions = {
   direction: "vertical",
   slidesPerView: 1,
-  spaceBetween: 70,
+  spaceBetween: 30,
   loop: true,
-  // autoplay: {
-  //   delay: 3000,
-  // },
+  autoplay: {
+    delay: 3000,
+  },
   speed: 1000,
   pagination: {
     el: ".custom-pagination",

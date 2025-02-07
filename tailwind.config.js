@@ -66,7 +66,7 @@ module.exports = {
           dark: "#0B1B29",
         },
         para: {
-          DEFAULT: "#F3F3F3",
+          DEFAULT: "#666D80",
         },
         coolButton: {
           DEFAULT: "#071122",

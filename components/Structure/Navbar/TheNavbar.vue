@@ -1,10 +1,11 @@
 <template>
   <nav
+    ref="navElement"
     :class="{ isHome: isHome }"
     class="bg-darkColor fixed z-[998] left-0 right-0 top-0 h-[var(--navbar-height)] lg:transition-all lg:duration-[800ms] shadow-lg shadow-slate-500 dark:shadow-slate-800"
   >
     <UContainer class="flex justify-between items-center py-4">
-      <Logo class="me-5" />
+      <Logo class="me-5" width="190px" height="30px" />
 
       <NavLinks class="hidden xl:flex items-center gap-10 text-whiteColor" />
 
@@ -89,6 +90,18 @@ const isHome = computed(() => {
     useRoute().path === `/en`
   );
 });
+
+const navElement = ref(null);
+onMounted(() => {
+  const optimizedScroll = useHelpers().throttle(() => {
+    if (window.scrollY > 100) {
+      navElement.value.classList.add("stickyNav");
+    } else {
+      navElement.value.classList.remove("stickyNav");
+    }
+  }, 100);
+  window.addEventListener("scroll", optimizedScroll);
+});
 </script>
 
 <style lang="postcss" scoped>
@@ -96,6 +109,10 @@ nav {
   &.isHome {
     background: transparent;
     box-shadow: none;
+  }
+
+  &.stickyNav {
+    @apply bg-darkColor shadow-md shadow-slate-800 dark:shadow-slate-800;
   }
 }
 </style>

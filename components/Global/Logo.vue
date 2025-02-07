@@ -4,19 +4,24 @@
     :to="localePath('/')"
     aria-label="go-to-home-page"
   >
-    <NuxtImg
-      width="190"
-      height="32"
-      src="/images/logo/logo-light.png"
-      alt="site Logo"
-      v-bind="$attrs"
-    />
+    <NuxtImg :src="logoSrc" alt="site Logo" v-bind="$attrs" />
   </NuxtLink>
 </template>
 
 <script setup lang="ts">
+const props = defineProps({
+  logoBig: {
+    type: Boolean,
+    default: false,
+  },
+});
+
 const localePath = useLocalePath();
 defineOptions({
   inheritAttrs: false,
+});
+
+const logoSrc = computed(() => {
+  return props.logoBig ? "/images/logo/logo-big.png" : "/images/logo/logo.png";
 });
 </script>

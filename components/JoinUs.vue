@@ -1,12 +1,12 @@
 <template>
   <div
-    class="bg-whiteColor dark:bg-darkColor rounded-2xl shadow-lg flex overflow-hidden w-[60vw] fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+    class="bg-whiteColor dark:bg-darkColor rounded-2xl shadow-lg flex overflow-hidden w-[90%] lg:w-[60vw] fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
   >
-    <div class="hidden md:flex flex-1 relative">
+    <div class="hidden md:flex w-[43%] relative">
       <NuxtImg
         src="/images/join-us.png"
         alt="Business Partner"
-        class="w-full h-full object-cover"
+        class="w-full object-cover"
       />
       <div
         class="absolute inset-0 bg-black/20 bg-opacity-40 flex items-start justify-center pt-5"
