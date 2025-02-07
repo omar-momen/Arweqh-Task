@@ -1,9 +1,9 @@
 <template>
-  <div class="about-section">
+  <section class="about-section">
     <UContainer>
       <h1>About Section</h1>
     </UContainer>
-  </div>
+  </section>
 </template>
 
 <script setup></script>
