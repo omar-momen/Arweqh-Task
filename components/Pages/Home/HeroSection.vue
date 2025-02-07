@@ -1,0 +1,87 @@
+<template>
+  <header
+    class="hero-header bg-[url(/images/bg/hero.png)] xl:h-screen bg-cover bg-center bg-no-repeat"
+  >
+    <UContainer class="pt-28 xl:h-full">
+      <div class="flex flex-col xl:flex-row xl:h-full">
+        <!-- Slider -->
+        <div class="w-full xl:w-[50%]">
+          <Slider />
+        </div>
+
+        <!-- Image -->
+        <div class="w-full xl:w-[50%] lg:h-full flex-center">
+          <div class="h-full relative">
+            <NuxtImg
+              sizes="440px"
+              height="641px"
+              class="mt-10 lg:mt-0 h-[349px] lg:h-full"
+              src="/images/hero-person.png"
+            />
+            <div
+              class="absolute top-[18%] -start-[30%] xl:-start-[15%] flex flex-col justify-center items-start bg-darkColor/70 backdrop-blur-md p-5 w-[140px] xl:w-[180px] rounded-xl text-whiteColor"
+            >
+              <GraduateIcon class="mb-3" />
+              <h4 class="text-xs xl:text-lg">
+                <span class="text-primary">100k</span> Students <br />
+                Learn Daily
+              </h4>
+            </div>
+            <div
+              class="absolute bottom-[8%] -start-[30%] xl:-start-[15%] flex flex-col justify-center items-start bg-darkColor/70 backdrop-blur-md px-5 py-6 w-[140px] xl:w-[180px] rounded-xl text-whiteColor"
+            >
+              <h4 class="text-xs xl: xl:text-lg">
+                Our Happy Students
+                <span class="text-[10px] font-normal">20k+ User </span>
+              </h4>
+              <ul class="flex items-center mt-2">
+                <li>
+                  <NuxtImg
+                    class="w-[20px] xl:w-[35px] h-[20px] xl:h-[35px]"
+                    sizes="35"
+                    height="35"
+                    src="/temp/images/avatar1.png"
+                    alt="star"
+                  />
+                </li>
+                <li class="-ms-1">
+                  <NuxtImg
+                    class="w-[20px] xl:w-[35px] h-[20px] xl:h-[35px]"
+                    width="35"
+                    height="35"
+                    src="/temp/images/avatar2.png"
+                    alt="star"
+                  />
+                </li>
+                <li class="-ms-1">
+                  <NuxtImg
+                    class="w-[20px] xl:w-[35px] h-[20px] xl:h-[35px]"
+                    width="35"
+                    height="35"
+                    src="/temp/images/avatar3.png"
+                    alt="star"
+                  />
+                </li>
+                <li class="-ms-1">
+                  <NuxtImg
+                    class="w-[20px] xl:w-[35px] h-[20px] xl:h-[35px]"
+                    width="35"
+                    height="35"
+                    src="/temp/images/avatar4.png"
+                    alt="star"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </UContainer>
+  </header>
+</template>
+
+<style lang="postcss">
+header.hero-header {
+  margin-top: calc(-1 * (var(--navbar-height) + 2rem));
+}
+</style>
