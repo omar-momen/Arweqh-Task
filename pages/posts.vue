@@ -1,4 +1,8 @@
 <script setup>
+definePageMeta({
+  title: "Posts",
+});
+
 const posts = ref([]);
 const page = ref(1);
 const hasMore = ref(true);
@@ -49,9 +53,3 @@ onUnmounted(() => {
     <div ref="target" class="h-1"></div>
   </div>
 </template>
-
-<script setup>
-definePageMeta({
-  title: "Posts",
-});
-</script>
