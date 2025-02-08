@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "@nuxt/test-utils/module",
     "@vueuse/nuxt",
+    "@nuxt/eslint",
   ],
 
   css: ["@/assets/css/main.postcss"],
