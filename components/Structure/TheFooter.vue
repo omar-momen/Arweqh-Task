@@ -18,7 +18,7 @@
         >
           <div>
             <h4 class="text-base font-bold mb-6">Quick Links</h4>
-            <ul class="flex flex-col gap-2">
+            <ul class="flex flex-col gap-4">
               <li>
                 <nuxt-link to="/">Home</nuxt-link>
               </li>
@@ -36,7 +36,7 @@
 
           <div>
             <h4 class="text-base font-bold mb-6">Legal Information</h4>
-            <ul class="flex flex-col gap-2">
+            <ul class="flex flex-col gap-4">
               <li>
                 <nuxt-link to="/">Terms of Services</nuxt-link>
               </li>
@@ -48,7 +48,7 @@
 
           <div>
             <h4 class="text-base font-bold mb-6">Contact Info</h4>
-            <ul class="flex flex-col gap-2">
+            <ul class="flex flex-col gap-4">
               <li>
                 <a href="mailto:support@360.com">support@360.com</a>
               </li>
@@ -76,7 +76,7 @@
 <style scoped lang="postcss">
 li {
   a {
-    @apply text-base font-light text-whiteColor;
+    @apply text-base font-light text-whiteColor  hover:underline;
   }
 }
 </style>
