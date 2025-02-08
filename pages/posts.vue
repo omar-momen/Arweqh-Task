@@ -11,44 +11,44 @@ definePageMeta({
   title: "Posts",
 });
 
-// const posts = ref([]);
-// const page = ref(1);
-// const hasMore = ref(true);
-// const loading = ref(false);
-// const target = ref(null);
-// let observer = null;
+const posts = ref([]);
+const page = ref(1);
+const hasMore = ref(true);
+const loading = ref(false);
+const target = ref(null);
+let observer = null;
 
-// const fetchPosts = async () => {
-//   if (!hasMore.value || loading.value) return;
-//   loading.value = true;
+const fetchPosts = async () => {
+  if (!hasMore.value || loading.value) return;
+  loading.value = true;
 
-//   try {
-//     const { data } = await useDollarFetch(`posts?page=${page.value}`);
-//     const fetchedPosts = data.value.data;
-//     if (fetchedPosts?.length) {
-//       posts.value.push(...fetchedPosts);
-//       page.value++;
-//     } else {
-//       hasMore.value = false;
-//     }
-//   } catch (error) {
-//     console.error("Error fetching posts:", error);
-//   }
+  try {
+    const { data } = await useDollarFetch(`posts?page=${page.value}`);
+    const fetchedPosts = data.value.data;
+    if (fetchedPosts?.length) {
+      posts.value.push(...fetchedPosts);
+      page.value++;
+    } else {
+      hasMore.value = false;
+    }
+  } catch (error) {
+    console.error("Error fetching posts:", error);
+  }
 
-//   loading.value = false;
-// };
+  loading.value = false;
+};
 
-// onMounted(() => {
-//   fetchPosts();
-//   observer = new IntersectionObserver((entries) => {
-//     if (entries[0].isIntersecting) {
-//       fetchPosts();
-//     }
-//   });
-//   if (target.value) observer.observe(target.value);
-// });
+onMounted(() => {
+  fetchPosts();
+  observer = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting) {
+      fetchPosts();
+    }
+  });
+  if (target.value) observer.observe(target.value);
+});
 
-// onUnmounted(() => {
-//   if (observer) observer.disconnect();
-// });
+onUnmounted(() => {
+  if (observer) observer.disconnect();
+});
 </script>
