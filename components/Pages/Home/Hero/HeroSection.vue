@@ -29,11 +29,11 @@
               </h4>
             </div>
             <div
-              class="absolute bottom-[8%] -start-[30%] xl:-start-[20%] flex flex-col justify-center items-start bg-darkColor/50 backdrop-blur-md px-5 py-6 w-[140px] xl:w-[220px] rounded-xl text-whiteColor"
+              class="absolute bottom-[8%] -start-[30%] xl:-start-[20%] flex flex-col justify-center items-start bg-darkColor/50 backdrop-blur-md px-5 py-6 w-[160px] xl:w-[220px] rounded-xl text-whiteColor"
             >
               <h4 class="text-xs font-semibold xl:text-lg">
                 Our Happy Students
-                <span class="text-[12px] -mt-1 block font-normal"
+                <span class="text-[12px] mt-0 lg:-mt-1 block font-normal"
                   >20k+ User
                 </span>
               </h4>
