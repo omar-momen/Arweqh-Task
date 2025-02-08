@@ -1,6 +1,6 @@
 <template>
   <header
-    class="hero-header bg-[url(/images/bg/hero.png)] xl:h-screen bg-cover bg-center bg-no-repeat"
+    class="hero-header bg-[url(/images/bg/hero.webp)] xl:h-screen bg-cover bg-center bg-no-repeat"
   >
     <UContainer class="pt-28 xl:h-full">
       <div class="flex flex-col xl:flex-row xl:h-full">
