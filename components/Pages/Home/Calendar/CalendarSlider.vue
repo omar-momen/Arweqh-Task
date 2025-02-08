@@ -1,5 +1,5 @@
 <template>
-  <div class="slider-container relative" dir="ltr">
+  <div class="slider-container calendar relative" dir="ltr">
     <Swiper v-bind="swiperOptions">
       <SwiperSlide
         class="!flex items-center !justify-start"
@@ -88,38 +88,40 @@ const slides = [
 </script>
 
 <style lang="postcss">
-.custom-pagination-calendar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  position: absolute;
-  bottom: -30px !important;
-  top: unset !important;
-  margin: 0;
-  left: 50% !important;
-  transform: translateX(-50%);
-  right: unset !important;
-  z-index: 2;
+.calendar {
+  .custom-pagination-calendar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    bottom: -30px !important;
+    top: unset !important;
+    margin: 0;
+    left: 50% !important;
+    transform: translateX(-50%);
+    right: unset !important;
+    z-index: 2;
 
-  .custom-bullet {
-    width: 8px;
-    height: 8px;
-    background: #d93749;
-    opacity: 0.5;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all 0.3s;
+    .custom-bullet {
+      width: 8px;
+      height: 8px;
+      background: #d93749;
+      opacity: 0.5;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s;
 
-    &.swiper-pagination-bullet-active {
-      width: 28px;
-      opacity: 1;
-      transform: scale(1.5);
+      &.swiper-pagination-bullet-active {
+        width: 28px;
+        opacity: 1;
+        transform: scale(1.5);
+      }
     }
   }
-}
 
-.swiper {
-  overflow: visible !important;
+  .swiper {
+    overflow: visible !important;
+  }
 }
 </style>
