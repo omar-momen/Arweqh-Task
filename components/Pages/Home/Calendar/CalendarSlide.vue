@@ -93,12 +93,10 @@ const startCounter = (targetDate) => {
   const intervalId = ref(null);
 
   const mainLogic = () => {
-    console.log("LOL");
     const currentTime = new Date().getTime();
     const timeDifference = targetTime - currentTime;
 
     if (timeDifference <= 0) {
-      console.log("OVER");
       over.value = true;
       clearInterval(intervalId.value);
       return;
