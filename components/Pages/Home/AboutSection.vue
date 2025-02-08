@@ -2,7 +2,7 @@
   <section>
     <UContainer>
       <div
-        class="about-section flex flex-wrap flex-col md:flex-row items-center justify-between rounded-2xl gap-10"
+        class="about-section flex flex-wrap flex-col gap-10 lg:gap-0 lg:flex-row items-center justify-between rounded-2xl"
       >
         <div class="flex flex-col w-full lg:w-[50%]">
           <GrayBadge text="Why us" class="w-fit" />
@@ -61,29 +61,33 @@
         </div>
 
         <!-- Video -->
-        <div class="relative rounded-xl w-full h-[400px] max-w-[600px]">
+        <div class="w-full lg:w-[50%] p-0 lg:ps-10">
           <div
-            class="absolute inset-0 z-10 bg-[#080F1D26]/20 backdrop-blur-sm rounded-xl w-full h-full"
-            :class="{
-              'bg-[#080F1D26]/20': !isPlaying,
-              hidden: isPlaying,
-            }"
+            class="relative rounded-xl max-w-[500px] h-[300px] mx-0 lg:mx-auto"
           >
-            <button
-              @click="playVideo"
-              ref="playButton"
-              class="w-14 h-14 bg-whiteColor dark:bg-darkColor rounded-full flex-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+            <div
+              class="absolute inset-0 z-10 bg-[#080F1D26]/20 backdrop-blur-sm rounded-xl w-full h-full"
+              :class="{
+                'bg-[#080F1D26]/20': !isPlaying,
+                hidden: isPlaying,
+              }"
             >
-              <PlayVideoIcon class="fill-darkColor dark:fill-whiteColor" />
-            </button>
-          </div>
+              <button
+                @click="playVideo"
+                ref="playButton"
+                class="w-14 h-14 bg-whiteColor dark:bg-darkColor rounded-full flex-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              >
+                <PlayVideoIcon class="fill-darkColor dark:fill-whiteColor" />
+              </button>
+            </div>
 
-          <video
-            ref="video"
-            class="w-full h-full object-cover rounded-xl ]"
-            src="https://www.w3schools.com/html/mov_bbb.mp4"
-            controls
-          ></video>
+            <video
+              ref="video"
+              class="w-full h-full object-cover rounded-xl ]"
+              src="https://www.w3schools.com/html/mov_bbb.mp4"
+              controls
+            ></video>
+          </div>
         </div>
       </div>
     </UContainer>

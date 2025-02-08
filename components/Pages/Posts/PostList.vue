@@ -20,7 +20,7 @@
 
         <template #after>
           <template v-if="loading">
-            <div v-for="i in 5" :key="i">
+            <div v-for="i in 5" :key="i" class="w-[90%] lg:w-1/2 mx-auto">
               <PostSkelton />
             </div>
           </template>
