@@ -15,7 +15,7 @@
             <NuxtImg
               width="440px"
               height="641px"
-              class="mt-10 lg:mt-0 h-[349px] lg:h-full"
+              class="mt-10 lg:mt-0 w-[240px] lg:w-[440px] h-[350px] lg:h-full"
               src="/images/hero-person.png"
               format="webp"
             />
