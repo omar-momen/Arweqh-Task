@@ -16,7 +16,7 @@
     </div>
 
     <!-- Info -->
-    <div class="absolute bottom-4 left-4 right-4 text-white z-[10]">
+    <div class="absolute bottom-7 left-7 right-7 text-white z-[10]">
       <div class="flex items-center justify-between">
         <div class="max-w-[80%]">
           <h3 class="text-2xl font-semibold text-whiteColor">
@@ -41,7 +41,7 @@
         <div class="flex items-center justify-between text-sm font-medium">
           <div class="flex items-center space-x-3">
             <TimeIcon class="group-hover:fill-white" />
-            <h4 class="text-sm font-medium">Course Starts After</h4>
+            <h4 class="text-base font-medium">Course Starts After</h4>
           </div>
           <div class="flex gap-5 text-center">
             <div class="flex-center flex-col">
@@ -63,7 +63,7 @@
           </div>
         </div>
         <div
-          class="w-full bg-gray-500 group-hover:bg-gray-400 rounded-full h-[8px] mt-2"
+          class="w-full bg-gray-400 group-hover:bg-gray-400 rounded-full h-[8px] mt-2"
         >
           <div
             class="bg-black group-hover:bg-white h-full rounded-full"

@@ -118,4 +118,8 @@ const slides = [
     }
   }
 }
+
+.swiper {
+  overflow: visible !important;
+}
 </style>

@@ -7,7 +7,7 @@
         <div class="flex flex-col w-full lg:w-[50%]">
           <GrayBadge text="Why us" class="w-fit" />
           <h2 class="mb-3 text-3xl md:text-5xl font-bold">Why Business 360?</h2>
-          <p class="mt-2 paragraph w-full lg:w-[60%]">
+          <p class="mt-2 paragraph w-full lg:w-[65%]">
             Join Thousands of Professionals Who Have Advanced Their Careers with
             Our Accredited Finance Courses. We offer more than just courses; we
             provide pathways to a successful career in finance.

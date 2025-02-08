@@ -19,7 +19,7 @@
             format="webp"
           />
           <h2 class="text-2xl font-medium">Dummy test</h2>
-          <p class="paragraph">
+          <p class="paragraph w-[90%]">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
@@ -37,7 +37,7 @@
             format="webp"
           />
           <h2 class="text-2xl font-medium">Dummy test</h2>
-          <p class="paragraph">
+          <p class="paragraph w-[90%]">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
@@ -55,7 +55,7 @@
             format="webp"
           />
           <h2 class="text-2xl font-medium">Dummy test</h2>
-          <p class="paragraph">
+          <p class="paragraph w-[90%]">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
@@ -73,7 +73,7 @@
             format="webp"
           />
           <h2 class="text-2xl font-medium">Dummy test</h2>
-          <p class="paragraph">
+          <p class="paragraph w-[90%]">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>

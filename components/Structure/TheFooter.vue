@@ -61,10 +61,10 @@
       </div>
 
       <div
-        class="w-full border-t border-whiteColor text-sm font-normal border-opacity-50 py-6"
+        class="w-full border-t border-whiteColor text-xs font-normal text-[#FEFCF7] border-opacity-50 py-6"
       >
         <div class="flex justify-between items-center">
-          <p class="text-sm font-normal">@ 2025. All rights reserved.</p>
+          <p>@ 2025. All rights reserved.</p>
 
           <nuxt-link to="/" class="underline">Cookies Settings</nuxt-link>
         </div>
