@@ -38,11 +38,11 @@ useHead({
     },
     {
       name: "author",
-      content: "Fintora",
+      content: "Arweqh",
     },
     {
       property: "og:title",
-      content: "Fintora",
+      content: "Arweqh",
     },
     {
       property: "og:descreption",
@@ -59,13 +59,13 @@ useHead({
     },
     {
       property: "og:url",
-      content: "https://tenjaz-task.vercel.app/",
+      content: "https://arweqh-task.vercel.app/",
     },
 
     // Twitter
     {
       property: "twitter:title",
-      content: "Fintora",
+      content: "Arweqh",
     },
     {
       property: "twitter:descreption",
@@ -82,7 +82,7 @@ useHead({
     },
     {
       property: "twitter:url",
-      content: "https://tenjaz-task.vercel.app/",
+      content: "Arweqh",
     },
   ],
 });

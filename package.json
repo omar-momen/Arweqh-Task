@@ -20,7 +20,6 @@
     "@nuxt/ui": "^2.17.0",
     "@vue/test-utils": "^2.4.6",
     "@vueuse/core": "^12.5.0",
-    "@vueuse/nuxt": "^12.5.0",
     "happy-dom": "^14.12.3",
     "nuxt": "^3.12.3",
     "playwright-core": "^1.46.1",
@@ -32,7 +31,6 @@
     "@pinia/nuxt": "^0.5.1",
     "pinia": "^2.1.7",
     "swiper": "^11.2.2",
-    "vue-virtual-scroller": "^1.1.2",
     "yup": "^1.4.0"
   }
 }
