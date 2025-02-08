@@ -4,7 +4,7 @@
     :to="localePath('/')"
     aria-label="go-to-home-page"
   >
-    <NuxtImg :src="logoSrc" alt="site Logo" v-bind="$attrs" />
+    <NuxtImg :src="logoSrc" alt="site Logo" v-bind="$attrs" format="webp" />
   </NuxtLink>
 </template>
 

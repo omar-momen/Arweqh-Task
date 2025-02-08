@@ -7,6 +7,7 @@
         src="/images/join-us.png"
         alt="Business Partner"
         class="w-full object-cover"
+        format="webp"
       />
       <div
         class="absolute inset-0 bg-black/20 bg-opacity-40 flex items-start justify-center pt-5"

@@ -24,6 +24,7 @@
                   height="48"
                   src="/temp/images/avatar1.png"
                   alt="star"
+                  format="webp"
                 />
               </li>
               <li
@@ -35,6 +36,7 @@
                   height="48"
                   src="/temp/images/avatar2.png"
                   alt="star"
+                  format="webp"
                 />
               </li>
               <li
@@ -46,6 +48,7 @@
                   height="48"
                   src="/temp/images/avatar3.png"
                   alt="star"
+                  format="webp"
                 />
               </li>
               <li

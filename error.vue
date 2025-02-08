@@ -9,6 +9,7 @@
           height="300"
           :src="imgSrc"
           :alt="error?.statusCode + ' error'"
+          format="webp"
         />
 
         <h1>{{ title }}</h1>

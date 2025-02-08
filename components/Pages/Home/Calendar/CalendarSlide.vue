@@ -5,6 +5,7 @@
     <!-- Image -->
     <div class="relative h-full z-[5]">
       <NuxtImg
+        format="webp"
         :src="slide.image"
         :alt="slide.title"
         class="w-full h-full object-cover"

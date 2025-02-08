@@ -17,6 +17,7 @@
               height="641px"
               class="mt-10 lg:mt-0 h-[349px] lg:h-full"
               src="/images/hero-person.png"
+              format="webp"
             />
             <div
               class="absolute top-[18%] -start-[30%] xl:-start-[20%] flex flex-col justify-center items-start bg-darkColor/50 backdrop-blur-md p-5 w-[140px] xl:w-[200px] rounded-xl text-whiteColor"
@@ -42,6 +43,7 @@
                     height="35"
                     src="/temp/images/avatar1.png"
                     alt="star"
+                    format="webp"
                   />
                 </li>
                 <li>
@@ -51,6 +53,7 @@
                     height="35"
                     src="/temp/images/avatar2.png"
                     alt="star"
+                    format="webp"
                   />
                 </li>
                 <li>
@@ -60,6 +63,7 @@
                     height="35"
                     src="/temp/images/avatar3.png"
                     alt="star"
+                    format="webp"
                   />
                 </li>
                 <li>
@@ -69,6 +73,7 @@
                     height="35"
                     src="/temp/images/avatar4.png"
                     alt="star"
+                    format="webp"
                   />
                 </li>
               </ul>
