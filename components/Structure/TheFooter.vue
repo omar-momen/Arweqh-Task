@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="footer pb-10 bg-[url(/images/bg/hero.png)] bg-cover bg-center bg-no-repeat text-whiteColor"
+    class="footer pb-10 bg-[url(/images/bg/hero.webp)] bg-cover bg-center bg-no-repeat text-whiteColor"
   >
     <UContainer>
       <div
