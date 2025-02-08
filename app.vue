@@ -86,6 +86,4 @@ useHead({
     },
   ],
 });
-
-console.log("App is running");
 </script>
