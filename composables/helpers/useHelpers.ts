@@ -29,16 +29,5 @@ export const useHelpers = () => {
     capitalizeEveryWord: (str: string) => {
       return str.replace(/\b[a-z]/g, (char) => char.toUpperCase());
     },
-
-    hasPermission: (permission: string) => {
-      const userPermissions: string[] = useUserStore().permissions;
-      return userPermissions.includes(permission);
-    },
-    hasAnyPermission: (permissions: string[]) => {
-      const userPermissions: string[] = useUserStore().permissions;
-      return permissions.some((permission) =>
-        userPermissions.includes(permission)
-      );
-    },
   };
 };

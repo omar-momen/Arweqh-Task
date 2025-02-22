@@ -23,13 +23,13 @@
                 <nuxt-link to="/">Home</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="/about">About Us</nuxt-link>
+                <nuxt-link>About Us</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="/courses">Courses</nuxt-link>
+                <nuxt-link>Courses</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="/contact">Contact Us</nuxt-link>
+                <nuxt-link>Contact Us</nuxt-link>
               </li>
             </ul>
           </div>
@@ -41,7 +41,7 @@
                 <nuxt-link to="/">Terms of Services</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="/about">Privacy Policy</nuxt-link>
+                <nuxt-link>Privacy Policy</nuxt-link>
               </li>
             </ul>
           </div>

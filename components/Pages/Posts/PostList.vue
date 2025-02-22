@@ -45,7 +45,7 @@
 </template>
 
 <script setup lang="ts">
-import { DynamicScroller } from "vue3-virtual-scroller";
+import { DynamicScroller, DynamicScrollerItem } from "vue3-virtual-scroller";
 
 import { vIntersectionObserver } from "@vueuse/components";
 
@@ -66,7 +66,7 @@ const fetchPosts = async () => {
     if (fetchedPosts?.length) {
       posts.value.push(...fetchedPosts);
       page.value++;
-      scroller_wrapper.value.scrollTo({
+      scroller_wrapper.value?.scrollTo({
         top: scroller_wrapper.value.scrollTop - 30,
         behavior: "smooth",
       });

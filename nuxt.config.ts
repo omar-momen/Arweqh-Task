@@ -49,17 +49,13 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       apiBase: "",
-      privateKey: "",
-      googleMapsApiKey: "",
     },
   },
 
   app: {
-    layoutTransition: { name: "slide", mode: "out-in" },
     pageTransition: { name: "fadeInBlur", mode: "out-in" },
   },
 
   components: [{ path: "~/components", pathPrefix: false }],
-
-  compatibilityDate: "2024-10-25",
+  compatibilityDate: "2025-02-22",
 });

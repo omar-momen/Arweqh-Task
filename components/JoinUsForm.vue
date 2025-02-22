@@ -13,7 +13,7 @@
       <UInput v-model="state.email" placeholder="Email" />
     </UFormGroup>
     <UFormGroup name="phone">
-      <UInput v-model="state.phone" placeholder="Mobile Phon" />
+      <UInput v-model="state.phone" placeholder="Mobile Phone" />
     </UFormGroup>
     <UFormGroup name="terms">
       <UCheckbox
@@ -51,7 +51,7 @@ const schema = object({
 
 const btnLoading = ref(false);
 const submit = async () => {
-  const { error, loading } = await authService().JoinUs(state);
+  const { error, loading } = await userService().JoinUs(state);
   btnLoading.value = loading;
   if (!error.value) {
     emit("close");

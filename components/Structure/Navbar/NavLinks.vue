@@ -1,7 +1,10 @@
 <template>
   <ul @click="emit('close')">
     <li v-for="link in links" :key="link.name">
-      <NuxtLink :to="localePath(link.path)" aria-label="go-to-home-page">
+      <NuxtLink v-if="link.path" :to="localePath(link.path)">
+        {{ $t(`links.${link.name}`) }}
+      </NuxtLink>
+      <NuxtLink v-else>
         {{ $t(`links.${link.name}`) }}
       </NuxtLink>
     </li>
@@ -13,11 +16,11 @@ const emit = defineEmits(["close"]);
 
 const links = ref([
   { name: "home", path: "/" },
-  { name: "about-us", path: "/about" },
+  { name: "about-us" },
   { name: "posts", path: "/posts" },
-  { name: "become-partner", path: "/become-partner" },
-  { name: "teams", path: "/teams" },
-  { name: "bog", path: "/bog" },
+  { name: "become-partner" },
+  { name: "teams" },
+  { name: "bog" },
 ]);
 
 const localePath = useLocalePath();

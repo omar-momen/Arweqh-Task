@@ -10,8 +10,6 @@
 
 <script setup>
 import TheFooter from "~/components/Structure/TheFooter.vue";
-
-const route = useRoute();
 </script>
 
 <style lang="postcss" scoped>
